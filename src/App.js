@@ -1,8 +1,13 @@
 import './App.css';
+import Home from './pages/home';
 
-function App() {
+
+const App = () => {
+
   return (
-    <div className="App"> Music Player </div>
+    <div className="App">
+      <Home />
+    </div>
   );
 }
 
